@@ -1,0 +1,19 @@
+public class WasteCollectionVechicleByIfElse {
+    public static void main(String[] args) {
+        int vehicleNumber = 1234;
+        double wasteCollected = 150.5;
+        int collectionPoints = 5;
+        String vehicleStatus = "Active";
+
+        System.out.println("Vehicle Number: " + vehicleNumber);
+        System.out.println("Waste Collected: " + wasteCollected + " kg");
+            System.out.println("Collection Points: " + collectionPoints);
+        System.out.println("Vehicle Status: " + vehicleStatus);
+
+        if (wasteCollected > 100) {
+            System.out.println("Collection Target Achieved");
+        } else {
+            System.out.println("Collection Target Not Achieved");
+        }
+    }
+}
